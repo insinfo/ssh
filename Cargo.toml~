@@ -1,0 +1,16 @@
+[package]
+name = "ssh"
+description = "Bindings to libssh, a library to write clients and servers for both version 1 and 2 of the protocol. It can also parse SSH config files and handle ProxyCommand automatically. Only the client part is implemented for now."
+version = "0.1.3"
+authors = ["Pierre-Étienne Meunier <pierre-etienne.meunier@aalto.fi>"]
+license = "MIT/Apache-2.0"
+links = "ssh"
+build = "build.rs"
+repository = "https://pijul.org/ssh"
+documentation = "https://pijul.org/ssh/doc/ssh/index.html"
+
+
+[dependencies]
+libc="0.2"
+log="0.3"
+bitflags="0.3"
